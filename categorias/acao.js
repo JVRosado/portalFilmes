@@ -37,7 +37,7 @@ function setGrid(dados){
         }
         conteudo+=
 
-        `<div class="col-sm" >
+        `<div class="col-sm" style="padding-bottom: 10px" >
             <div class="card" >
                 <img class="card-img-top" src="`+imageUrl+dados.results[i].poster_path+`" alt="Card image cap">
                 <div class="card-body">

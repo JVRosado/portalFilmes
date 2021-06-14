@@ -55,7 +55,7 @@ async function setGrid(dados){
         
         conteudo+=
 
-        `<div class="col-sm" >
+        `<div class="col-sm" style="padding-bottom: 10px" >
             <div class="card" >
                 <img class="card-img-top" src="`+imagem+`" alt="Card image cap">
                 <div class="card-body">
