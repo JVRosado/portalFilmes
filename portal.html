@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!--font Google-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Noto+Sans:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--CSS Próprio-->
+    <link rel="stylesheet" href="portal.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <title>Portal de filmes</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#"><i class="fas fa-ticket-alt" id="menu-icon"></i>VIVACINEMA</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false"
+                    aria-label="Alterna navegação">
+                    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="categorias/drama.html">Drama</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="categorias/terror.html">Terror</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="categorias/acao.html">Ação</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="categorias/comedia.html">Comedia</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar"
+                            id="search">
+                        <button class="btn btn-primary btn-search my-2 my-sm-0" type="submit" id="btn-search"><i
+                                class="fas fa-search"></i></button>
+                    </form>
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"><i class="fas fa-sign-in-alt register-icon"></i>Login</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"><i class="far fa-user-circle register-icon"></i>Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container carrouselInicial">
+                    <div class="row">
+                        <div class="col-sm">
+                            <img id="img1" class="d-block w-100 imgCarrousel">
+                        </div>
+                        <div class="col-sm textoCarrousel">
+                            <h1 id="titulo1">sdfsdf</h1>
+                            <h3 class="Sinopse" >Sinopse</h3>
+                            <p id="sinopse1">sdfsdf
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="container carrouselInicial">
+                    <div class="row">
+                        <div class="col-sm">
+                            <img id="img2" class="d-block w-100 imgCarrousel">
+                        </div>
+                        <div class="col-sm textoCarrousel">
+                            <h1 id="titulo2">sdfsdf</h1>
+                            <h3 class="Sinopse" >Sinopse</h3>
+                            <p id="sinopse2">sdfsdf
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="container carrouselInicial">
+                    <div class="row">
+                        <div class="col-sm">
+                            <img id="img3" class="d-block w-100 imgCarrousel">
+                        </div>
+                        <div class="col-sm textoCarrousel">
+                            <h1 id="titulo3">sdfsdf</h1>
+                            <h3 class="Sinopse" >Sinopse</h3>
+                            <p id="sinopse3">sdfsdf
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+
+
+
+    <div class="galeriaFilmes">
+        <div id="CarrouselInferior" class="SliderFilmes">
+
+                    <!-- Imagens entrarão aqui -->
+            
+
+        </div>
+    </div>
+
+
+    <h2 class="titulo">Avaliaçoes dos usuarios</h2>
+    <div class="container avaliacoes">
+        <div class="row">
+            <div class="col-sm avaliacaoUsuario">
+                <h4>mortal kombat</h4>
+                <h5>Douglas S.</h5>
+                <p>É bom pela nostalgia que proporciona, na época do lançamento era a melhor coisa do mundo. Porem,
+                    o
+                    enredo é bobo, as sequências tolas, e as atuações vazias. Lado outro, a
+                    caracterização e cenários desenham bem o contexto. Foi um prazer relembrar da fantasia de
+                    criança, mas tecnicamente foi um sacrifício assistir.
+                </p>
+                <P><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="far fa-star"></i> <i
+                        class="far fa-star"></i> <i class="far fa-star"></i></P>
+            </div>
+            <div class="col-sm avaliacaoUsuario">
+                <h4>Vingadores: Ultimato</h4>
+                <h5>Jeff S.</h5>
+                <p>A espera de 10 anos valeu sim à pena. Filme fez jus a um encerramento de uma saga. Marvel nos deu
+                    tudo que queríamos.
+                    A batalha final é arrepiante, te leva no ápice de todas as emoções. Agora só nos resta aguardar
+                    pra
+                    ver com o que a Marvel nos fazerá sonhar daqui pra frente.
+                    Obrigado Marvel por essa experiência nessa década!
+                </p>
+                <p><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i
+                        class="fas fa-star"></i> <i class="fas fa-star"></i> </p>
+            </div>
+            <div class="col-sm avaliacaoUsuario">
+                <h4>Vingadores: Ultimato</h4>
+                <h5>Felipe Ferreira dos Santos</h5>
+                <p>Melhor filme!Muito legal, engraçado, tem aventura, ação, emoção não parece que passam 3 horas e
+                    quando aparece o Thor bêbada muito engraçado!Parabéns Marvel!Estou sem palavras!</p>
+                <p><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i
+                        class="fas fa-star"></i> <i class="fas fa-star"></i> </p>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="titulo">making of</h2>
+    <div class="container AreaMakingOff">
+        <div class="row">
+            <div class="col-sm">
+                <iframe class="makingOff" src="https://www.youtube.com/embed/0PfH-Zqxq9g" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="col-sm">
+                <iframe class="makingOff" src="https://www.youtube.com/embed/-4zVqbFoJoA" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="col-sm">
+                <iframe class="makingOff" src="https://www.youtube.com/embed/e1RV6Xp4xec" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="titulo">Ultimas noticias</h2>
+    <div class="container noticias">
+        <div class="row">
+            <div class="col-md-3 order-md-1">
+
+                <img src="imagens/noticiaFilme1.jpg" class="NoticiasImg">
+            </div>
+            <div class="col-md-6 order-md-2 textoPatrocinadores">
+                <h4>Invocação do Mal 3</h4>
+                <p>"Estamos de volta! Estrelando como os investigadores paranormais da vida real Lorraine e Ed
+                    Warren,
+                    em Invocação do Mal 3: A Ordem do Demônio", começa Patrick Wilson na mensagem exclusiva.</p>
+                <a target="_blank" href="https://www.adorocinema.com/noticias/filmes/noticia-159116/"><button
+                        type="button" class="btn btn-primary btn-sm saibaMais">Saiba mais</button></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 order-md-1">
+
+                <img src="imagens/noticiaFilme2.jpg" class="NoticiasImg">
+            </div>
+            <div class="col-md-6 order-md-2 textoPatrocinadores">
+                <h4>ROGAI POR NÓS</h4>
+                <p>Rogai por Nós conta a história de Alice, uma jovem com deficiência auditiva que, após uma suposta
+                    visita da Virgem Maria, é inexplicavelmente capaz de ouvir, falar e curar os enfermos. À medida
+                    que
+                    a notícia se espalha e pessoas de perto e de longe se reúnem para testemunhar seus milagres,
+                    um jornalista decadente (Jeffrey Dean Morgan), que espera reviver sua carreira, visita a pequena
+                    cidade da Nova Inglaterra para investigar o fenômeno.
+                </p>
+                <a target="_blank" href="https://www.adorocinema.com/filmes/filme-270162/"><button type="button"
+                        class="btn btn-primary btn-sm saibaMais">Saiba mais</button></a>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-3 order-md-1">
+
+                <img src="imagens/noticaFIlme3.jpg" class="NoticiasImg">
+            </div>
+            <div class="col-md-6 order-md-1 textoPatrocinadores">
+                <h4>CONFIRMADA a exibição de Vingadores Guerra Infinita na Globo! Veja a data</h4>
+                <p>O primeiro capítulo da conclusão da Saga do Infinito chegará na TV aberta em poucos dias! Isso
+                    porque, foi confirmada a exibição de Vingadores Guerra Infinita na Globo já na próxima semana.
+                    Com
+                    isso, teremos
+                    a oportunidade de rever eventos importantes do Universo Cinematográfico Marvel que elevam
+                    Infinity
+                    War
+                    ao patamar de um dos maiores filmes de todos os tempos!
+                </p>
+                <a target="_blank"
+                    href="https://centralvingadores.com.br/confirmada-exibicao-vingadores-guerra-infinita-na-globo/"><button
+                        type="button" class="btn btn-primary btn-sm saibaMais">Saiba mais</button></a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <footer class="container-flex" id="rodape">
+        
+        <div class="rodape" class=col-lg-12>
+          <ul class="botoes">
+    
+            <button type="button" class="btn btn-outline-secondary botao"><i class="fab fa-google"></i></button>
+            <button type="button" class="btn btn-outline-secondary botao"><i class="fab fa-facebook"></i></button>
+            <button type="button" class="btn btn-outline-secondary botao"><i class="fab fa-apple"></i></button>
+            <button type="button" class="btn btn-outline-secondary botao"><i class="fas fa-user"></i></button>
+    
+          </ul>
+          <p class="DireitosReservados">© 2021. Todos os direitos reservados</p>
+        </div>
+      </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="funcoes.js"></script>
+</body>
+
+
+</html>

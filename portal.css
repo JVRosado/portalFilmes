@@ -1,0 +1,330 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #c7b3e63d;
+}
+
+/*INICIO HEADER*/
+.header{
+    width: 100%;
+    background-color: #0a070f;
+}
+
+#menu-icon{
+    font-size: 30px;
+    margin-right: 5px;
+    color: red;
+}
+
+.fa-bars{
+    color: white;
+    font-size: 30px;
+}
+
+.register-icon{
+    margin-right: 5px;
+    color: red;
+}
+
+.navbar{
+    background-color: #0a070f;
+}
+
+nav a{
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: white;
+}
+
+.btn-primary{
+    background-color: #000040;
+    color: white;
+    border-color: #000040;
+}
+
+.btn-primary:hover{
+    background-color: #7955af;
+}
+
+.btn-login{
+    margin-left: 5px;
+    width: 110px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: none;
+}
+
+.btn-register{
+    margin-left: 5px;
+    width: 110px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: none;
+}
+
+.btn-search{
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+.btn-search:hover{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+@media screen and (max-width: 600px){
+    #search, #btn-search{
+        display: none;
+    }
+}
+/*FIM HEADER*/
+
+/*carrousel com os filmes*/
+.imgCaroussel{
+    width: 100%;
+    height: 15rem;
+    
+    
+}
+.carrouselInicial{
+    padding-top: 10px;
+    background-color: rgba(187, 187, 187, 0.377);
+    
+    
+    
+}
+
+.textoCarrousel{
+    margin: 10px;
+    
+}
+
+.Sinopse, h1, .critica {
+    text-align: center;
+    padding: 10px;
+    
+}
+
+
+
+.carrousel2{
+    padding-top: 10px;
+}
+/*carrousel com os filmes*/
+
+
+.container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.8);
+
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    top: 45%;
+    left: 51%;
+    width: 95%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+  }
+
+
+.textoFilmes{
+    color: white;
+    text-align: center;
+    padding-top: 20rem;
+}
+
+.slide-arrow{
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+  }
+  .prev-arrow{
+    left: -40px;
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 15px solid #113463;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
+  .next-arrow{
+    right: -40px;
+    width: 0;
+    height: 0;
+    border-right: 0 solid transparent;
+    border-left: 15px solid #113463;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
+
+
+/* inicio avaliaçoes dos usiuarios*/
+.avaliacoes{
+    padding-top: 20px;
+    background-color: rgba(187, 187, 187, 0.377);
+    
+}
+.titulo{
+    text-align: center;
+    
+}
+
+@media screen and (max-width: 570px){
+    .avaliacaoUsuario{
+        padding-top: 20px;
+    }
+
+}
+/*final avaliaçoes dos usuarios*/
+
+.makingOff{
+    width: 100%;
+    height: 20rem;
+    
+}
+
+.AreaMakingOff{
+    padding-top: 40px;
+    background-color: rgba(187, 187, 187, 0.377);
+}
+
+.NoticiasImg{
+    width: 100%;
+    height: 10rem;
+    padding-top: 10px;
+}
+
+.patrocinadores{
+    padding-top: 20px;
+}
+
+.noticias{
+    background-color: rgba(187, 187, 187, 0.377);;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.galeriaFilmes{
+    width: 71%;
+    left: 14.5%;
+    position: relative;
+    
+}
+
+.SliderFilmes{
+    position: relative;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.SliderFilmes img{
+    padding: 20px;
+}
+
+#rodape button {
+    border-radius: 20px;
+    
+    
+    
+}
+   
+#rodape div.rodape { 
+    text-align: center;
+    background-color: black;
+       
+}
+   
+#rodape div.rodape-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    text-decoration: none;
+    box-shadow: white 0px 5px 1px 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;      
+}
+   
+#rodape a {
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    align-content: center;
+    padding-right:150px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+   
+  
+
+.textoRodape{
+    color: #01006b;
+    padding-left: 10%;
+    
+}
+
+.botao{
+    color: white;
+    
+}
+
+.DireitosReservados{
+    color: red;
+}
+/*Fim rosapé*/
+
+@media screen and (max-width: 1024px){
+    .textoRodape{
+        width: 100%;
+        
+    }
+      
+}
+footer{
+    padding-top: 20px;
+}
+
