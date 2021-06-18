@@ -55,6 +55,10 @@ function setCarouselSuperior(dados){
     $('#titulo3').html(dados.results[2].title);
     $('#img3').attr("src", imageUrl+dados.results[2].poster_path);
     $('#sinopse3').html(dados.results[2].overview);
+    $('#botao1').attr("href","https://www.themoviedb.org/movie/"+dados.results[0].id);
+    $('#botao2').attr("href","https://www.themoviedb.org/movie/"+dados.results[1].id);
+    $('#botao3').attr("href","https://www.themoviedb.org/movie/"+dados.results[2].id);
+    console.log(dados)
 
 }
 
@@ -66,6 +70,7 @@ function setCarrouselInferior(dados){
             <img src="`+imageUrl+dados.results[i].poster_path+`" alt="Avatar `+(i+1).toString()+`" class="image">
             <div class="overlay">
                 <div class="text" >`+dados.results[i].overview+`</div>
+                
             </div>
         </div>`
         );
@@ -91,3 +96,4 @@ async function getDados(parametroBusca){
 //ebf2faa6e1c2e6783650ee8bcdbb293a
 
 //eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlYmYyZmFhNmUxYzJlNjc4MzY1MGVlOGJjZGJiMjkzYSIsInN1YiI6IjYwYmZhODk4YmNmOGM5MDA3YmM4MGUwZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.hLsymM9d44ng6tpgEek8pTh4-LV70gxzZwYiHMBGV8s
+//https://www.themoviedb.org/movie/813258
